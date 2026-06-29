@@ -698,7 +698,7 @@ export default function App() {
             {/* Portrait Image (Slow parallax down) */}
             <div 
               style={storyParallaxStyle}
-              className="absolute top-0 left-0 right-0 mx-auto w-[330px] sm:w-[380px] h-[330px] sm:h-[380px] rounded-2xl overflow-hidden shadow-premium border border-gold/10 transition-transform z-10 bg-white"
+              className="absolute top-0 left-0 right-0 mx-auto w-[330px] sm:w-[380px] lg:w-[420px] h-[330px] sm:h-[380px] lg:h-[420px] rounded-2xl overflow-hidden shadow-premium border border-gold/10 transition-transform z-10 bg-white"
             >
               <SafeImage
                 src="https://i.ibb.co/yF71kFzg/e334d4ffe873184bfcc6cc177cd53312.jpg"
@@ -710,7 +710,7 @@ export default function App() {
             {/* Landscape Image (Parallax slightly up) */}
             <div 
               style={storyForegroundStyle}
-              className="absolute bottom-2 left-[20%] sm:left-auto right-[20%] sm:right-[10%] lg:right-[15%] w-[60%] sm:w-[55%] lg:w-[60%] h-[220px] sm:h-[240px] lg:h-[270px] rounded-2xl overflow-hidden shadow-premium border border-gold/10 transition-transform z-20 bg-white"
+              className="absolute bottom-2 left-[20%] sm:left-auto right-[20%] sm:right-[10%] lg:right-[8%] w-[60%] sm:w-[55%] lg:w-[52%] h-[220px] sm:h-[240px] lg:h-[230px] rounded-2xl overflow-hidden shadow-premium border border-gold/10 transition-transform z-20 bg-white"
             >
               <SafeImage
                 src="https://i.ibb.co/kstY8RNF/2cafa02dea0441d48eda9e806a998d0e.jpg"
